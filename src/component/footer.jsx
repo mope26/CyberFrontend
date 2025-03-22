@@ -19,7 +19,7 @@ import LinkedIn from '../assets/images/Icon-Linkedin.png';
                 <input type="text" />
             </div>
             <div className="flex flex-col gap-2">
-                <p className="text-lg leading-loose "  >Support</p>
+                <p className="text-lg leading-loose " >Support</p>
                 <p className="text-sm w-41 ">111 Bijoy sarani, Dhaka, DH 1515,Bangladesh.</p>
                 <p className="text-sm ">exclusive@gmail.com</p>
                 <p className="text-sm ">+88015-88888-9999</p>
