@@ -1,16 +1,19 @@
 /* eslint-disable no-unused-vars */
-import { useState } from 'react'
+import React from 'react'
 
 import Signup from './pages/signup'
 import Login from './pages/login'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
- 
 
   return (
-    <>
-     <Login/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Signup />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
