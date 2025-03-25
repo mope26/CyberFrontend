@@ -18,3 +18,12 @@ body {
  .footer p{
   cursor: pointer;
  }
+ /* .desc_icon div:hover {
+  filter: invert(1);
+  background-color: #DB4444;
+  color: black;
+}
+
+.desc_icon div:hover img {
+  filter: invert(1);
+} */
